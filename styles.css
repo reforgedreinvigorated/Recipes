@@ -1,0 +1,36 @@
+h1, h2, h3{
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+.ingredients,
+.steps{
+    font-family:'Lucida Sans', sans-serif;
+}
+
+.ingredients{
+    color: red;
+}
+.steps{
+    color: blue;
+}
+.ordered,
+.unordered{
+    font-family:  "Times New Roman", sans-serif;
+    background-color: black;
+}
+
+.unordered .listItem{
+    color: green;
+}
+.ordered .listItem{
+    color: white;
+}
+
+.unordered #spices{
+    color: red;
+}
